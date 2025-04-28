@@ -1,0 +1,26 @@
+.background-image {
+    top: 50px;
+    width: 100%;
+    position: absolute;
+    mask-image: linear-gradient(black, transparent);
+}
+
+.hero-title {
+    width: max-content;
+    position: relative;
+    left: 40px;
+    bottom: 60px;
+    font-size: 50px;
+    color: black;
+    text-decoration: underline;
+}
+
+.hero-paragraph {
+    width: 500px;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
