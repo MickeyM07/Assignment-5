@@ -3,6 +3,7 @@ import './Footer.css'
 function Footer() {
     
     return (
+        
         <div className="footer">
             <div className="footer-space"></div>
             <h2 className="footer-text    ">© DebtFlix 2025, all rights reserved</h2>
