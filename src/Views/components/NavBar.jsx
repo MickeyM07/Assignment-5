@@ -1,4 +1,5 @@
 import './NavBar.css'
+import { Link } from "react-router-dom";
 
 function NavBar() {
 
@@ -20,10 +21,11 @@ function NavBar() {
                 <div className="subheader-items">
                     <h1>Recent</h1>
                 </div>
+                <Link to={`/login`} className="login">Login</Link>
+                <Link to={`/register`} className="register">Register</Link>
             </div>
-            <button className="register">Register</button>
         </div>
     )
 }
 
-export default NavBar
+export default NavBar;
