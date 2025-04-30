@@ -7,13 +7,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  /* Header Section */
+ 
   .details-header {
     padding: 1rem 2rem;
     border-bottom: 1px solid #333;
   }
   
-  /* Movie Details Section */
+  
   .movie-details {
     padding: 2rem;
     max-width: 1000px;
@@ -115,4 +115,11 @@
     .details-movie-poster {
       max-width: 100%;
     }
+  }
+
+  .details-footer {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
   }
